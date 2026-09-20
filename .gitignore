@@ -13,3 +13,8 @@ env/
 # Artefacts de modèle
 *.pkl
 *.joblib
+!api/model.joblib
+
+# Suivi MLflow local (régénéré par src/train.py)
+mlruns/
+mlflow.db
