@@ -18,3 +18,9 @@ env/
 # Suivi MLflow local (régénéré par src/train.py)
 mlruns/
 mlflow.db
+
+# Réglages de l'éditeur
+.vscode/
+
+# Captures de travail pour les slides
+images/
